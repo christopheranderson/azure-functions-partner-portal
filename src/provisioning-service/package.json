@@ -1,0 +1,16 @@
+{
+  "name": "provisioning-service",
+  "version": "0.0.0",
+  "description": "installing azure resources",
+  "main": " ",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "chrande@microsoft.com",
+  "license": "MIT",
+  "dependencies": {
+    "azure-arm-resource": "^1.4.4-preview",
+    "bluebird": "^3.4.0",
+    "ms-rest-azure": "^1.14.4"
+  }
+}

@@ -28,6 +28,5 @@ var refreshLogin = function() {
 
 module.exports = {
     options: options,
-    refreshLogin: refreshLogin,
-    promise: promise
+    refreshLogin: refreshLogin
 }

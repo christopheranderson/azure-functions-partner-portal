@@ -1,0 +1,17 @@
+{
+ "version": "1.7.5",
+ "compilerOptions": {
+ "target": "es5",
+ "rootDir": "src",
+ "moduleResolution": "node",
+ "module": "commonjs",
+ "emitDecoratorMetadata": true,
+ "experimentalDecorators": true,
+ "sourceMap": true
+},
+"exclude": [
+   "node_modules",
+   "client",
+   "build"
+ ]
+}

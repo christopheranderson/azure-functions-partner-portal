@@ -3,7 +3,6 @@
 import * as azure from 'ms-rest-azure'
 import * as arm from 'azure-arm-resource'
 import * as promise from 'bluebird'
-import * from '../../../bower_components/angular/angular.js'
 
 let options = {
     spnname: process.env.FUNCTION_APP_SPNAME,
@@ -29,9 +28,4 @@ let refreshLogin = function() {
     })     
 }
 
-angular.
-    module('commonAzure').
-    component('commonAzure', {
-        options: options,
-        refreshLogin: refreshLogin
-    });
+export { options, refreshLogin}

@@ -41,3 +41,7 @@ typings
 .vscode
 
 build
+
+bower_components/
+*.js
+*.js.map

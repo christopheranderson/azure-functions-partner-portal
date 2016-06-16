@@ -1,3 +1,5 @@
+import * from '../../../bower_components/angular/angular.js'
+
 class Context {
     public bindings: any;
     public bindingData: any;
@@ -22,4 +24,8 @@ class Context {
     }
 }
 
-export { Context }
+angular.
+    module('commonFunctions').
+    component('commonFunctions', {
+        context: Context
+    });

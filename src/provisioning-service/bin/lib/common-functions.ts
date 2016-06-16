@@ -22,4 +22,8 @@ class Context {
     }
 }
 
-export { Context }
+angular.
+    module('commonFunctions').
+    component('commonFunctions', {
+        context: Context
+    });

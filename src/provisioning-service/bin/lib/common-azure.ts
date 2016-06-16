@@ -28,7 +28,9 @@ let refreshLogin = function() {
     })     
 }
 
-export {
-    options,
-    refreshLogin
-}
+angular.
+    module('commonAzure').
+    component('commonAzure', {
+        options: options,
+        refreshLogin: refreshLogin
+    });

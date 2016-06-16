@@ -1,3 +1,5 @@
+import * from '../../../bower_components/angular/angular.js'
+
 class Context {
     public bindings: any;
     public bindingData: any;

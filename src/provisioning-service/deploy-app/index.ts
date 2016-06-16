@@ -2,7 +2,7 @@ import * as arm  from 'azure-arm-resource'
 
 import * as utils from '../bin/lib/common-azure.ts'
 import { Context } from '../bin/lib/common-functions.ts'
-import * from 'bower_components/angular/angular.js'
+import * from '../bower_components/angular/angular.js'
 
 angular.module('provisionerPortal', [
     'ngRoute',

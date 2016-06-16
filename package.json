@@ -5,8 +5,8 @@
   "main": " ",
   "scripts": {
     "test": "karma start karma.conf.js",
-    "start": "npm run build && http-server -a localhost -p 8000 -c-1 ./",
-    "build": "tsc ../../tsconfig.json"
+    "start": "npm run build && http-server -a localhost -p 8000 -c-1 ./src/provisioning-service",
+    "build": "tsc"
   },
   "author": "chrande@microsoft.com",
   "license": "MIT",

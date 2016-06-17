@@ -1,14 +1,54 @@
 <div class="container-fluid">
-	<h1>Configurations</h1>
+	<h1>New Configuration</h1>
 	<div class="row">
-		<div class="col-md-2">
-			<!--Nothing here-->
-		</div>
-		<div class="col-md-8">
-			
-		</div>
-		<div class="col-md-2">
-			<!--Nothing here-->
+		<div class="col-md-8 col-md-offset-2">
+			<div class="row">
+				<div class="col-md-4">
+					Name
+				</div>
+				<div class="col-md-8">
+					<input ng-model="$crtl.commandName">slash-command
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					Autocomplete
+				</div>
+				<div class="col-md-8">
+					<input type="checkbox" aria-label="...">Show this command in the autocomplete list
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-4">
+					<div class="row">
+						Description
+					</div>
+					<div class="row">
+						<input ng-model="$crtl.autocompleteDescription" />
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-4">
+					<div class="row">
+						Usage Hint
+					</div>
+					<div class="row">
+						<input ng-model="$crtl.autocompleteUsageHint" />
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					Descriptive Label
+				</div>
+				<div class="col-md-8">
+					<input ng-model="$crtl.autocompleteLabel">Optional description of this integration
+				</div>
+			</div>
+			<div class="row" align="center">
+				<button type="button" class="btn btn-success">Develop!</button>
+			</div>
 		</div>
 	</div>
 </div>

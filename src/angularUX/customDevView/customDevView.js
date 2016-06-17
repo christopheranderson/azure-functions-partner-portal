@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('provisionerPortal.customDevView', ['ngRoute'])
+  .module('customDevView')
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/customDevView', {
       templateUrl: 'customDevView/customDevView.html',

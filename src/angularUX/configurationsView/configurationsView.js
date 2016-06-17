@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('provisionerPortal.configurationsView', ['ngRoute'])
+  .module('configurationsView')
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/configurationsView', {
       templateUrl: 'configurationsView/configurationsView.html',

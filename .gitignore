@@ -42,6 +42,5 @@ typings
 
 build
 
-bower_components/
 /src/provisioning-service/**/*.js
 *.js.map

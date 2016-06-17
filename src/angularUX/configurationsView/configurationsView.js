@@ -5,9 +5,11 @@ angular
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/configurationsView', {
       templateUrl: 'configurationsView/configurationsView.html',
-      controller: 'configurationsViewCtrl'
-    });
-  }])
-  .controller('configurationsViewCtrl', [function configurationsViewController() {
-
-  }]);
+      controller: 'configurationsViewCtrl', ['$http', function configurationsViewController($http) {
+        var self = this;
+      
+        $http.get('../integrations.json').then(function(response) {
+          self.integrations = response.data;
+        });
+      }]
+  });

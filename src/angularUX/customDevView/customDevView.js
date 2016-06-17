@@ -8,5 +8,6 @@ angular
       controller: 'customDevViewCtrl'
     });
   }])
-  .controller('customDevViewCtrl', [function() {
+  .controller('customDevViewCtrl', [function customDevViewController() {
+    
   }]);

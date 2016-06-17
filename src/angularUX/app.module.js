@@ -3,6 +3,6 @@
 // Define the `provisionerPortal` module
 angular.module('provisionerPortal', [
   'ngRoute',
-  'phoneDetail',
-  'phoneList'
+  'customDevView',
+  'configurationsView'
 ]);

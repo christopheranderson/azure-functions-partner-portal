@@ -1,1 +1,42 @@
-<p>This is the partial for configurationsView.</p>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-3">
+			<!--Nothing here-->
+		</div>
+		<div class="col-md-6">
+			<div class="row" align="center">
+				Configurations
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<input ng-model="$crtl.add" /> <!--TODO-->
+				</div>
+				<div class="col-md-3">
+					<button class="btn btn-primary" type="submit">Add Configuration</button>
+				</div>
+			</div>
+			<div class="row">
+				<div ng-repeat="i in $ctrl.integrations | orderBy:$ctrl.name" class="row">
+					<div class="col-md-2">
+						{{i.image}}
+					</div>
+					<div class="col-md-8">
+						{{i.name}}<br>
+						{{i.description}}
+					</div>
+					<div class="col-md-2">
+						<div class="row">
+							<button class="btn btn-success">Edit</button>
+						</div>
+						<div class="row">
+							<button class="btn btn-danger">Delete</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<!--Nothing here-->
+		</div>
+	</div>
+</div>

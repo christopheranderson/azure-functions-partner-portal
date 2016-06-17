@@ -4,5 +4,5 @@
 angular.module('provisionerPortal', [
   'ngRoute',
   'phoneDetail',
-  'phoneList',
+  'phoneList'
 ]);
